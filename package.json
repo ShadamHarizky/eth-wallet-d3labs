@@ -1,0 +1,27 @@
+{
+  "name": "d3labs-technical-interview",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ethereum-block-by-date": "^1.5.0",
+    "ethers": "^6.13.4",
+    "express": "^4.21.2",
+    "module-alias": "^2.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "_moduleAliases": {
+    "@application": "./src/application",
+    "@domain": "./src/domain",
+    "@infrastructure": "./src/infrastructure"
+  }
+}
